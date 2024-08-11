@@ -13,6 +13,7 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 from sklearn.decomposition import PCA
 
 
+
 os.chdir(os.path.dirname(__file__))
 
 scaler = StandardScaler()
